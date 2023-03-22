@@ -1,0 +1,57 @@
+.introduction{
+    display: flex;
+    width: 100%;
+    .introductionContainer{
+        flex:6;
+        .widgets{
+            display: flex;
+            padding: 30px;
+            gap:20px;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+            box-shadow:2px 4px 10px 1px rgba(201,201,201,201.47);
+            justify-content: space-between;
+            border-radius: 30px;
+            color: rgb(87, 85, 85);
+            font-size: 16px;
+            // background-color: rgb(241, 223, 216);
+            margin: 30px;
+
+
+        }
+        
+        .demo {
+            border:1px solid #a78af0;
+            border-collapse:collapse;
+            padding:5px;
+        }
+        .demo th {
+            border:1px solid #c18af7;
+            padding:5px;
+            background:#b9c7f5;
+        }
+        .demo td {
+            border:1px solid #a17ef1;
+            padding:5px;
+        }
+        .strong{
+            border:1px solid #c18af7;
+            padding:5px;
+            background:#b9c7f5;
+            border-radius: 30px;
+
+
+
+        }
+       
+    
+        
+
+    }
+    textarea{
+        padding: 3%;
+        border-color: #4b73f5;
+        border-width: thick;
+    }
+    
+
+}

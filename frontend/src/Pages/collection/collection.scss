@@ -1,0 +1,55 @@
+
+h3 {
+    line-height: 20px;
+   
+    margin-top: 0px;
+}
+.small-caption {
+    margin-bottom: 20px;
+}
+#input1, #input2, #input3, #input4 {
+    height: 300px;
+    width: 100%;
+}
+th {
+    text-align: left;
+}
+tr:nth-child(1) {
+   width :30%
+}
+tr:nth-child(2) {
+    width :70%
+}
+table, td, th {  
+    border: 0.4px solid #ddd;
+    text-align: left;
+}
+td, th {
+    padding-left: 20px;
+    height:30px;
+    font-size: 10px;
+}
+table {
+    border-collapse: collapse;
+    width:60%;
+    margin:auto
+
+}
+// #3rdquestion {
+//     background-color: white;
+//     border: 1px solid  black;
+//     padding: 20px;
+// }
+#thirdtable {
+    width:100%;
+}
+#thirdtable tr:nth-child(1) {
+    width :20%
+}
+#thirdtable tr:nth-child(2) {
+    width :80%
+
+}
+img {
+    width: 600px;
+}
